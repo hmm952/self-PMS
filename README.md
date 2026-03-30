@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-看到控制台输出 `[robot-pms] API 已启动: http://localhost:3001` 即成功。
+看到控制台输出 `[robot-pms] API 已启动:  即成功。
 
 **首次启动**会在 `server/data/robot_pms.db` 创建 SQLite 数据库，并自动写入演示数据与默认管理员：
 
@@ -74,7 +74,7 @@ npm install
 npm run dev
 ```
 
-浏览器访问终端里提示的地址（一般为 **http://localhost:5173**）。前端已将 `/api` 代理到 `http://localhost:3001`，无需额外配置 CORS。
+浏览器访问终端里提示的地址（一般为 ）。前端已将 `/api` 代理到，无需额外配置 CORS。
 
 ### 5. 登录验证
 
